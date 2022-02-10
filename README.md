@@ -7,7 +7,11 @@ teste se encontram nesse [link](https://maven.apache.org/install.html)
 
 ## Execução do projeto
 
-Buildar o projeto usando esse comando
+Buildar o projeto usando esse comando:
 ```
-mvn packagen
+mvn package
+```
+Na raiz do projeto, executar o seguinte comando para iniciar o App:
+```
+java -cp target/java-practices-1.0-SNAPSHOT.jar com.javapractices.app.App
 ```
